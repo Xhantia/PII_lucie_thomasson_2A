@@ -1,0 +1,59 @@
+===============================================
+================== DATABASE ===================
+===============================================
+
+create database if not exists BlogAutrice character set utf8 collate utf8_unicode_ci;
+use BlogAutrice;
+
+
+
+===============================================
+================== STRUCTURE ==================
+===============================================
+
+drop table if exists article;
+drop table if exists categorie;
+drop table if exists newsletter;
+
+
+create table article (
+	id_article integer not null primary key auto_increment,
+	categorie_article integer not null,
+	titre_article varchar(200) not null,
+	date_publication date not null,
+	image_entete varchar (200) not null,
+	contenu_article text not null,
+
+	constraint fk_cat_art foreign key (categorie_article) references categorie(id_categorie)
+);
+
+create table newsletter (
+	mail_abonne varchar(255) not null primary key,
+	pseudo_abonne varchar(100) not null
+);
+
+create table categorie (
+	id_categorie integer not null primary key auto_increment,
+	nom_categorie varchar(100) not null
+);
+
+
+
+===============================================
+================== CONTENT ==================
+===============================================
+
+insert into newsletter values ('luciethmsn@gmail.com', 'Lucie_T');
+
+insert into categorie values (1, 'Le Monde des Premiers');
+insert into categorie values (2, 'Conseils écriture');
+insert into categorie values (3, 'Avis lecture');
+
+insert into article values (1, 2, 'Se mettre dans de bonnes conditions pour écrire', 02/02/2021, 
+	'https://cutt.ly/cksHtzO', 
+	'Cet article factice permet de tester l\'affichage des articles du blog en fonction de la catégorie à laquelle il appartient. Avouez que niveau esthétique, ça en jette quand même !');
+
+
+
+
+

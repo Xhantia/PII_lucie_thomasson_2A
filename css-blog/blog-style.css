@@ -1,0 +1,184 @@
+/* ===== DANS LE HEADER ===== */
+.navbar {
+  padding: 5px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.input-search {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #e0e0e0;
+  width: 150px;
+}
+
+.loupe-search {
+  background-color: white;
+  border: none;
+}
+
+.nav-item {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.fa {
+  color: black;
+  margin: 3px;
+}
+
+.box-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* ===== DANS LE CORPS ===== */
+
+.posts {
+  display: flex;
+  margin-right: 2%;
+  justify-content: flex-start; /*alignement sur l'axe horizontal*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  flex-direction: column;
+  order: 1;
+}
+
+.last-post {
+  border: 1px solid #e0e0e0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.image-post {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 2%;
+}
+
+.post-resume {
+  padding: 2%;
+}
+
+.barre-laterale {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  justify-content: center; /*alignement sur l'axe horizontal*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  order: 2;
+}
+
+#index-apropos {
+  display: flex;
+  justify-content: center; /*alignement sur l'axe horizontal*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  background-image: url("./images/banniere_test.png");
+}
+
+/* ===== A PROPOS ===== */
+
+.apropos {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+}
+
+.image-apropos {
+  max-width: 500px;
+  max-height: 100%;
+}
+
+.infos-autrice {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+/* ===== DANS LE FOOTER ===== */
+
+.newsletter {
+  display: flex;
+  justify-content: center; /*alignement sur l'axe horizontal*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 4;
+}
+
+footer {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center; /*alignement sur l'axe horizontal*/
+  align-content: center; /*pour aligner tous les items de l'élement entre eux*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 3;
+}
+
+.infos-footer {
+  display: flex;
+  justify-content: center; /*alignement sur l'axe horizontal*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-top: 1px solid white;
+  order: 5;
+}
+
+.footer-text {
+  padding: 1%;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* ===== FORMULAIRES ===== */
+
+.form {
+  display: flex;
+  justify-content: center; /*alignement sur l'axe horizontal*/
+  align-items: center; /*alignement sur l'axe vertical*/
+  flex-direction: column;
+}
+
+.form-input {
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-button {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 3%;
+  border: none;
+}
+
+/* ===== GENERAL ===== */
+
+.corps {
+  display: flex;
+  justify-content: center;
+  align-content: center; /*pour aligner tous les items de l'élement entre eux*/
+  align-items: center; /*pour aligner verticalement les items dans l'élément */
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+h3 {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 2%;
+}
