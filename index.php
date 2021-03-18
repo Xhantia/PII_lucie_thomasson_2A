@@ -5,35 +5,38 @@
     <body>
         <div class="container-xl corps">
             <div class="col-xl posts">
-                <h2>DERNIERS ARTICLES</h2>
 
                 <!-- conteneur du dernier post -->
                 <div class="container last-post">
                     <!-- contient image et intitule du post -->
-                    <div class=" d-block d-lg-flex">
+                    <div class="d-block d-lg-flex" href="article.php">
                         <div>
-                        <img class="image-post" src="images/banniere_test.png" alt="image illustrant le post">
+                        <img class="image-post" src="images/castes_magie.jpg" alt="image illustrant le post">
                         </div>
                         <!-- contient tout l'intitule ecrit du post -->
                         <div class="post-resume">
-                            <div class="date-read d-block">Jun 14 2021 • Le Monde des Premiers</div>
-                            <div class="post-title"><h2>Titre du post</h2></div>
-                            <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate vero obcaecati natus adipisci necessitatibus eius, enim vel sit ad reiciendis. Enim praesentium magni delectus cum, tempore deserunt aliquid quaerat culpa nemo veritatis, iste adipisci excepturi consectetur doloribus aliquam accusantium beatae?</p>
+                            <a href="article.php">
+                            <div class="small text-muted text-center">12 Janvier 2021 • Le Monde des Premiers</div>
+                            <h2  class="h2-titre-post text-center">Magie et castes</h2>
+                            <div class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate vero obcaecati natus adipisci necessitatibus eius, enim vel sit ad reiciendis. Enim praesentium magni delectus cum, tempore deserunt aliquid quaerat culpa nemo veritatis...</div>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="container last-post">
+                 <div class="container last-post">
                     <!-- contient image et intitule du post -->
-                    <div class="d-block d-lg-flex">
+                    <div class="d-block d-lg-flex" href="article.php">
                         <div>
-                        <img class="image-post" src="images/banniere_test.png" alt="image illustrant le post">
+                        <img class="image-post" src="images/rester_inspire.jpg" alt="image illustrant le post">
                         </div>
                         <!-- contient tout l'intitule ecrit du post -->
                         <div class="post-resume">
-                            <div class="date-read d-block">Jun 14 2021 • Le Monde des Premiers</div>
-                            <div class="post-title"><h2>Titre du post</h2></div>
-                            <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate vero obcaecati natus adipisci necessitatibus eius, enim vel sit ad reiciendis. Enim praesentium magni delectus cum, tempore deserunt aliquid quaerat culpa nemo veritatis, iste adipisci excepturi consectetur doloribus aliquam accusantium beatae?</p>
+                            <a href="article.php">
+                            <div class="small text-muted text-center">12 Janvier 2021 • Conseils d'écriture</div>
+                            <h2  class="h2-titre-post text-center">Rester inspiré</h2>
+                            <div class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate vero obcaecati natus adipisci necessitatibus eius, enim vel sit ad reiciendis. Enim praesentium magni delectus cum, tempore deserunt aliquid quaerat culpa nemo veritatis...</div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -42,9 +45,9 @@
             <div class="container col-4 barre-laterale">
                 <!-- vers la page d'a propos sur l'autrice -->
                 <a href="apropos.php">
-                    <div class="container" id="index-apropos" href="apropos.php">
-                        <h2>Qui suis-je ?</h2>
-                        <p>En savoir plus sur l'autrice</p>
+                    <div class="container" style= "background-image: url('images/image_index_apropos.jpg'); background-size: cover;" id="index-apropos" href="apropos.php">
+                        <h2 class="mark">Qui suis-je ?</h2>
+                        <p class="mark">En savoir plus sur l'autrice</p>
                     </div>
                 </a>
                 <!-- vers l'à-propos et feed instagram -->

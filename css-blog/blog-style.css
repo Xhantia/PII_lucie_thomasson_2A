@@ -10,6 +10,7 @@
   border-left: none;
   border-bottom: 1px solid #e0e0e0;
   width: 150px;
+  font-size: 14px;
 }
 
 .loupe-search {
@@ -40,44 +41,42 @@
 .posts {
   display: flex;
   margin-right: 2%;
-  justify-content: flex-start; /*alignement sur l'axe horizontal*/
-  align-items: center; /*alignement sur l'axe vertical*/
   flex-direction: column;
   order: 1;
 }
 
 .last-post {
-  border: 1px solid #e0e0e0;
-  margin-top: 2%;
   margin-bottom: 2%;
 }
 
+.h2-titre-post {
+  color: #664d32;
+}
+
 .image-post {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 2%;
+  max-width: 350px;
+  max-height: 300px;
 }
 
 .post-resume {
-  padding: 2%;
+  border: 1px solid #e0e0e0;
+  justify-content: left;
+  align-items: center;
+  padding: 3%;
 }
 
 .barre-laterale {
   display: flex;
   flex-direction: column;
-  border: 1px solid #e0e0e0;
-  justify-content: center; /*alignement sur l'axe horizontal*/
-  align-items: center; /*alignement sur l'axe vertical*/
   order: 2;
 }
 
 #index-apropos {
+  height: 500px;
   display: flex;
   justify-content: center; /*alignement sur l'axe horizontal*/
   align-items: center; /*alignement sur l'axe vertical*/
   flex-direction: column;
-  border: 1px solid #e0e0e0;
-  background-image: url("./images/banniere_test.png");
 }
 
 /* ===== A PROPOS ===== */
@@ -85,18 +84,16 @@
 .apropos {
   display: flex;
   flex-direction: row;
-  border: 1px solid #e0e0e0;
 }
 
 .image-apropos {
   max-width: 500px;
-  max-height: 100%;
 }
 
 .infos-autrice {
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  padding-left: 2%;
 }
 
 /* ===== DANS LE FOOTER ===== */
@@ -165,7 +162,6 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center; /*pour aligner tous les items de l'élement entre eux*/
-  align-items: center; /*pour aligner verticalement les items dans l'élément */
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 2%;
@@ -180,5 +176,15 @@ h3 {
 
 h2 {
   font-size: 25px;
-  margin-top: 2%;
+  margin: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
 }
