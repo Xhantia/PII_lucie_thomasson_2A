@@ -1,17 +1,32 @@
 <?php session_start(); ?>
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<?php require_once "includes/functions.php"; ?>  <!--Inclusion des fonctions PHP -->
-<?php require_once "includes/header.php"; ?>     <!-- Inclusion du header -->
+<?php require_once "includes/functions.php"; ?>
+<?php require_once "includes/header.php"; ?>
     <body>
-        <div class="container-xl corps">
-            <?
-            // On récupère les infos du template d'article
-            $article = getDb() -> query("select * from blogautrice where id_article='1'");
-            echo $article;
-            ?>
+            <div class="col-xl article">
+                <?php
+                /*On récupère les infos du template d'article*/
+                if(getDB()) {
+                    // $message = "Bien connecté à la DB";
+                    // echo $message;
+                    $article = getDB() -> query("select * from article where id_article='1'") -> fetch();
+                }
+                else {
+                    $message = "erreur";
+                    echo $message;
+                }
+                ?>
+                <!-- date -->
+                <div><p class="small text-muted"><?php echo $article[3]; ?> | Catégorie de l'article à afficher</p></div>
+                <!-- image -->
+                <div><?php echo "<img class='article-head' src='".$article[4]."'alt='image illustrant le post'>";?></div>
+                <!-- titre -->
+                <div><h1 class="container"><?php echo $article[2]; ?></h1></div>
+                <!-- contenu -->
+                <div><p class="container col-9"><?php echo $article[5]; ?></p></div>
+            </div>
 
-        </div>
         <!-- inclusion du footer -->
         <?php require_once "includes/footer.php"; ?>
         <!-- inclusion des scripts -->

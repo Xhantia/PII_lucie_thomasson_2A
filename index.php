@@ -9,7 +9,7 @@
                 <!-- conteneur du dernier post -->
                 <div class="container last-post">
                     <!-- contient image et intitule du post -->
-                    <div class="d-block d-lg-flex" href="article.php">
+                    <div class="d-lg-flex" href="article.php">
                         <div>
                         <img class="image-post" src="images/castes_magie.jpg" alt="image illustrant le post">
                         </div>
