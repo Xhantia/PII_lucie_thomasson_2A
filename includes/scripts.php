@@ -8,6 +8,7 @@
 
 <script>
     // Utilisation des animations
+    AOS.init();
 </script>
 
 <script>
