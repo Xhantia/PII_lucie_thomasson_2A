@@ -17,5 +17,7 @@
         </div>
          <!-- inclusion du footer -->
          <?php require_once "includes/footer.php"; ?>
+         <!-- inclusion des scripts -->
+        <?php require_once "includes/scripts.php"; ?>
     </body>
 </html>

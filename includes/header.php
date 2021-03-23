@@ -1,16 +1,14 @@
 <?php require_once "includes/functions.php";?>
 
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- bootstrap css -->
+  <!-- css -->
   <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./css-blog/blog-style.css">
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <!-- icon library -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <title>Un super blog d'auteur</title>
