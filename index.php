@@ -7,7 +7,7 @@
             <div class="col-xl posts">
 
                 <!-- conteneur du dernier post -->
-                <div class="container last-post" data-aos="fade-in" style="padding: 0px;">
+                <div class="container last-post"style="padding: 0px;">
                     <!-- contient image et intitule du post -->
                     <div class="d-lg-flex" href="article.php">
                         <div>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
 
-                 <div class="container last-post" data-aos="fade-in" style="padding: 0px;">
+                 <div class="container last-post" style="padding: 0px;">
                     <!-- contient image et intitule du post -->
                     <div class="d-lg-flex" href="article.php">
                         <div>

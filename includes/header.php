@@ -15,16 +15,16 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white row">
-  <div class="container-fluid">
+<nav class="navbar navbar-toggler navbar-collapse navbar-expand navbar-light fixed-top bg-white row">
+  <!-- <div class="container-fluid"> -->
     <div class="container col-1"></div>
       <div class="container col-3">
               <form>
-                <input type="text" class="input-search" placeholder="Recherche inactive" name="search">
-                <button type="submit" class="loupe-search"><i class="fa fa-search"></i></button>
+                <input type="search" class="input-search" placeholder="Recherche inactive" name="search">
+                <button type="submit" class="loupe-search btn"><i class="fa fa-search"></i></button>
               </form>
       </div>
-      <div class="collapse navbar-collapse container col-5 justify-content-evenly">
+      <div class="collapse navbar-collapse container col-6 justify-content-between">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
@@ -36,23 +36,23 @@
             <a class="nav-link" aria-current="page" href="article.php">Article</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ecriture.php" tabindex="-1" aria-disabled="true">Carte interactive</a>
+            <a class="nav-link" href="carte_interactive.php" tabindex="-1" aria-disabled="true">Carte interactive</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php" tabindex="-1" aria-disabled="true">Contact</a>
           </li>
         </ul>
       </div>
-      <div class="container col-2">
-        <a href="https://facebook.com"><i class="fa fa-facebook fa-fx"></i></a>
+      <div class="container col-1 justify-content-between">
+        <a href="https://facebook.com"><i class="fa fa-facebook fa-fw"></i></a>
         <a href="https://twitter.com"><i class="fa fa-twitter fa-fw"></i></a>
         <a href="https://instagram.com"><i class="fa fa-instagram fa-fw"></i></a>
         <a href="https://youtube.com"><i class="fa fa-youtube-play fa-fw"></i></a>
         <a href="https://tumblr.com"><i class="fa fa-tumblr fa-fw"></i></a>
         <a href="contact.php"><i class="fa fa-envelope fa-fw"></i></a>
       </div>
-    <div class="container col-2"></div>
-  </div>
+    <div class="container col-1"></div>
+  <!-- </div> -->
 </nav>
 
  <!-- Insertion du logo du site -->
