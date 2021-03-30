@@ -5,16 +5,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.js"></script>
 
+
+<!-- =========================================== -->
 <!-- Utilisation d'AOS pour animer certains éléments -->
+<!-- =========================================== -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+<!-- =========================================== -->
+<!-- Utilisation des animations -->
+<!-- =========================================== -->
 <script>
-    // Utilisation des animations
     AOS.init();
 </script>
 
+
+<!-- =========================================== -->
+<!-- Inscription à la newsletter -->
+<!-- =========================================== -->
 <script>
-    // Envoi asynchrone pour la newsletter
     document.getElementById("form-newsletter").addEventListener("submit", (e) => {
         // Store reference to form to make later code easier to read
         const form = e.target;
@@ -29,4 +38,20 @@
         // A la fin, ne s'active que si tout le code avant a marché
         e.preventDefault();
     });
+</script>
+
+
+<!-- =========================================== -->
+<!-- Carte interactive -->
+<!-- =========================================== -->
+<script>
+    // jQuery Modal Popups by Black
+    // http://code.jfbs.net/?showtopic=57
+
+
+    // Affichage des territoires au clic sur le nom
+    $(".maison-hamilcar").click(function () {
+        $(".territoire.hamilcar").toggleClass("area-active");
+    });
+
 </script>

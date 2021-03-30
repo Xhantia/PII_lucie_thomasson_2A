@@ -1,18 +1,43 @@
 /* ===== CARTE INTERACTIVE ===== */
 
 .map-header {
-  border: 1px solid black;
+  border: 1px solid red;
+  display: flex;
+  padding: 2%;
 }
 
 #continent {
-  background-image: url("images/le_continent.jpeg");
-  background-size: cover;
+  background-image: url("../images/le_continent.jpeg");
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 1500px;
+  height: 1000px;
+  padding: 0px;
 }
 
-/* ===== DANS LE HEADER ===== */
+.maison-hamilcar {
+  cursor: pointer;
+  padding: 5%;
+}
+
+.area-active {
+  opacity: 0.5;
+  -moz-opacity: 1;
+}
+
+.territoire {
+  height: 1000px;
+  border: 1px solid red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  transition: all ease 0.4s;
+}
+
+.territoire .hamilcar {
+  background-image: url("../images/Hamilcar.png");
+}
+
+/* ===== HEADER ===== */
 .navbar {
   padding: 5px;
   border-bottom: 1px solid #e0e0e0;

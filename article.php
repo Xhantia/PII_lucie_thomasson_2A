@@ -30,6 +30,6 @@
         <!-- inclusion du footer -->
         <?php require_once "includes/footer.php"; ?>
         <!-- inclusion des scripts -->
-        <?php require_once "includes/scripts.php"; ?>
+        <?php require_once "includes/scripts.html"; ?>
     </body>
 </html>
