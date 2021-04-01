@@ -5,11 +5,9 @@
     <body>
         <div class="container corps flex-column">
         <!-- regroupe titre et infos sur la carte -->
-            <div class="container map-header">
+            <div class="container map-header justify-content-around">
                 <div>
                     <h1>Le Continent</h1>
-                </div>
-                <div>
                     <p>Berceau du Monde des Premiers. Terre de magie, de royauté et de mystères.</p>
                 </div>
                 <div>
