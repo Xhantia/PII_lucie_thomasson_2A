@@ -9,7 +9,7 @@
   <!-- css -->
   <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./css-blog/blog-style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css">
 
   <title>Un super blog d'auteur</title>
 </head>
@@ -44,12 +44,12 @@
         </ul>
       </div>
       <div class="container col-1 justify-content-between">
-        <a href="https://facebook.com"><i class="fa fa-facebook fa-fw"></i></a>
-        <a href="https://twitter.com"><i class="fa fa-twitter fa-fw"></i></a>
-        <a href="https://instagram.com"><i class="fa fa-instagram fa-fw"></i></a>
-        <a href="https://youtube.com"><i class="fa fa-youtube-play fa-fw"></i></a>
-        <a href="https://tumblr.com"><i class="fa fa-tumblr fa-fw"></i></a>
-        <a href="contact.php"><i class="fa fa-envelope fa-fw"></i></a>
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+        <a href="https://tumblr.com"><i class="fab fa-tumblr"></i></a>
+        <a href="contact.php"><i class="fas fa-envelope"></i></a>
       </div>
     <div class="container col-1"></div>
   <!-- </div> -->

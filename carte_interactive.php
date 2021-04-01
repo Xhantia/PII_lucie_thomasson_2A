@@ -13,6 +13,11 @@
                 <div>
                     <h2>Maisons dirigeantes</h2>
                         <div class="maison-hamilcar" title="Cliquez pour afficher la région">Hamilcar</div>
+                        <div class="maison-eristene" title="Cliquez pour afficher la région">Eristène</div>
+                        <div class="maison-litreans" title="Cliquez pour afficher la région">Litréans</div>
+                        <div class="maison-hafferyn" title="Cliquez pour afficher la région">Hafferyn</div>
+                        <div class="maison-blustrode" title="Cliquez pour afficher la région">Blustrode</div>
+                        <div class="maison-herjafol" title="Cliquez pour afficher la région">Herjafol</div>
                 </div>
                 <div>
                     <h2>Légende</h2>
@@ -24,18 +29,19 @@
 
             <div class="container" id="continent">
 
-                <!-- Territoires sur la carte -->
-                <div class="territoire">
-                    <div class="territoire hamilcar"></div>
-                </div>
+                <!-- Territoires sur la carte -->            
+                <div id="hamilcar"></div>
+                <div id="eristene"></div>
+                <div id="litreans"></div>
+                <div id="hafferyn"></div>
+                <div id="blustrode"></div>
+                <div id="herjafol"></div>
 
                 <!-- Lieux d'intérêt -->
                     <!-- Prévoyer Hamilcar -->
-                    <div class="lieux-interet">
                         <a href="#" class="modal-link" data-modal-target="anchoris">
-                            <div class="capitale-anchoris"></div>
+                            <i id="anchoris" class="capitale fas fa-bahai"></i>
                         </a>
-                    </div>
                 
 
                 <!-- Données affichées dans les modal -->
