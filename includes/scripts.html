@@ -2,8 +2,6 @@
 <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.js"></script>
 
 
 <!-- =========================================== -->
@@ -11,10 +9,6 @@
 <!-- =========================================== -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-<!-- =========================================== -->
-<!-- Utilisation des animations -->
-<!-- =========================================== -->
 <script>
     AOS.init();
 </script>
@@ -24,20 +18,56 @@
 <!-- Inscription à la newsletter -->
 <!-- =========================================== -->
 <script>
-    document.getElementById("form-newsletter").addEventListener("submit", (e) => {
-        // Store reference to form to make later code easier to read
-        const form = e.target;
 
-        // On utilise fetch pour envoyer les données
-        fetch(form.action, {  //envoie vers newsletter.php
-        method: form.method,  //méthode POST
-        body: new FormData(form),
-        });
-
-        // Empêche le formulaire de s'envoyer avec "action"
-        // A la fin, ne s'active que si tout le code avant a marché
+    $(document).ready(function(){
+    $("#submit").click(function(e){
         e.preventDefault();
+
+        $.post(
+            'newsletter.php', // Un script PHP que l'on va créer juste après
+            {
+                email : $("#newsletter_email").val(),  // Nous récupérons la valeur de nos inputs que l'on fait passer à newsletter.php
+                pseudo : $("#newsletter_pseudo").val()
+            },
+
+            function(data){
+                if(data == 'Success'){
+                     // Les données ont bien été récupérées et envoyées
+                     $("#resultat").html("<p>Les données ont bien été récupéres et envoyées !</p>");
+                }
+                else{
+                     // Les données ne sont pas parties. (data vaut ici "failed")
+                     $("#resultat").html("<p>Erreur lors de l'inscription...</p>");
+                }
+            },
+
+            'text' // Nous souhaitons recevoir "Success" ou "Failed", donc on indique text !
+        );
+
     });
+
+    });
+
+    // window.addEventListener("load", function () {
+        // function sendData() {
+        //   var FD = new FormData(form);                   // Création d'un FormData lié à l'élément form (y a bien les données dedans)
+        //   var XHR = new XMLHttpRequest();                // Création de la requête
+        //   XHR.open("POST", "./newsletter.php");          // Configure la requête
+        //   XHR.send(FD);                                  // Envoie les données que l'utilisateur a mis dans le formulaire
+        //   document.getElementById('infos-newsletter').innerHTML=XHR.readyState; 
+          
+          // Définit ce qui se passe si la soumission s'est opérée avec succès
+          // XHR.addEventListener("success", function(event) {
+          //   document.getElementById('infos-newsletter').innerHTML="Transfert des infos effectué !";
+            // alert(FD.get("newsletter_pseudo"));
+          // });
+      
+          // Definit ce qui se passe en cas d'erreur
+          // XHR.addEventListener("error", function(event) {
+          //   alert('Oups! Quelque chose s\'est mal passé.');
+          // });
+        // }
+//       });
 </script>
 
 
