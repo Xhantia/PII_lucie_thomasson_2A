@@ -18,34 +18,31 @@
 <!-- Inscription à la newsletter -->
 <!-- =========================================== -->
 <script>
+   $(document).ready(function() {
+        $("#submit").click(function(e){ //if we submit the form
+            e.preventDefault();
 
-    $(document).ready(function(){
-    $("#submit").click(function(e){
-        e.preventDefault();
+            $.post(
+                'newsletter.php', //file where my informations are sent
+                {
+                    email : $("#newsletter-email").val(),  // get values from the form
+                    pseudo : $("#newsletter-pseudo").val()
+                },
 
-        $.post(
-            'newsletter.php', // Un script PHP que l'on va créer juste après
-            {
-                email : $("#newsletter_email").val(),  // Nous récupérons la valeur de nos inputs que l'on fait passer à newsletter.php
-                pseudo : $("#newsletter_pseudo").val()
-            },
-
-            function(data){
-                if(data == 'Success'){
-                     // Les données ont bien été récupérées et envoyées
-                     $("#resultat").html("<p>Les données ont bien été récupéres et envoyées !</p>");
-                }
-                else{
-                     // Les données ne sont pas parties. (data vaut ici "failed")
-                     $("#resultat").html("<p>Erreur lors de l'inscription...</p>");
-                }
-            },
-
-            'text' // Nous souhaitons recevoir "Success" ou "Failed", donc on indique text !
-        );
-
-    });
-
+                function(data, status){
+                    alert(("Data:" + data + "\n status:" + status));
+                    // if(data == 'Success'){
+                    //     // data successifully sent
+                    //     $("#resultat").html("<p>Les données ont bien été envoyées !</p>");
+                    // }
+                    // else{
+                    //     // data not sent (data = "failed")
+                    //     $("#resultat").html("<p>Erreur lors de l'inscription...</p>");
+                    // }
+                },
+                'text'
+            );
+         });
     });
 
     // window.addEventListener("load", function () {

@@ -56,7 +56,7 @@
             </div>
         </div>
         <!-- inclusion du footer -->
-        <?php require_once "includes/footer.php"; ?>
+        <?php require_once "includes/footer.html"; ?>
         <!-- inclusion des scripts -->
         <?php require_once "includes/scripts.html"; ?>
     </body>

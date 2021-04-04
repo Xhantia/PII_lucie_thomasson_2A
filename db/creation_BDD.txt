@@ -15,6 +15,10 @@ drop table if exists article;
 drop table if exists categorie;
 drop table if exists newsletter;
 
+create table categorie (
+	id_categorie integer not null primary key auto_increment,
+	nom_categorie varchar(100) not null
+);
 
 create table article (
 	id_article integer not null primary key auto_increment,
@@ -28,14 +32,10 @@ create table article (
 );
 
 create table newsletter (
-	mail_abonne varchar(255) not null primary key,
-	pseudo_abonne varchar(100) not null
+	pseudo_abonne varchar(100) not null primary key,
+	mail_abonne varchar(255) not null
 );
 
-create table categorie (
-	id_categorie integer not null primary key auto_increment,
-	nom_categorie varchar(100) not null
-);
 
 
 
@@ -43,7 +43,7 @@ create table categorie (
 ================== CONTENT ==================
 ===============================================
 
-insert into newsletter values ('luciethmsn@gmail.com', 'Lucie_T');
+insert into newsletter values ('Lucie_T', 'luciethmsn@gmail.com');
 
 insert into categorie values (1, 'Le Monde des Premiers');
 insert into categorie values (2, 'Conseils écriture');
