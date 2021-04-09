@@ -51,7 +51,7 @@
                 <!-- vers l'à-propos et feed instagram -->
                 <div class="container">
                     <h2>Que se passe-t-il sur Instagram ?</h2>
-                    <p> inclusion du feed instagram</p>
+                    <div id="instafeed"></div>
                 </div>
             </div>
         </div>

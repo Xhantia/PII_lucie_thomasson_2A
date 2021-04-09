@@ -2,6 +2,7 @@
 <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.boomcdn.com/libs/instafeed-js/1.4.1/instafeed.min.js"></script>
 
 
 <!-- =========================================== -->
@@ -46,6 +47,34 @@
     });
 </script>
 
+
+<!-- =========================================== -->
+<!-- Instafeed -->
+<!-- =========================================== -->
+<script>
+$(document).ready(function() {
+ 
+    // The Url from your Authorisations list  
+    var instantTokenApiUrl = 'https://ig.instant-tokens.com/users/f3c87bb6-6528-4d50-8961-5d1935746fe2/instagram/17841408585471482/token.js?userSecret=sy02i3yvo8gebb6yml9xml'
+    
+      $.ajax({
+            url: instantTokenApiUrl,
+        dataType: 'json'
+          })
+           .done(function( response ) {
+            
+            if (!response.Token) {
+              console.log('Error :: ', response);
+            } else {
+                var feed = new Instafeed({
+                           accessToken: response.Token
+                          });
+                feed.run();
+              }
+    });
+   
+  });
+</script>
 
 <!-- =========================================== -->
 <!-- Carte interactive -->
