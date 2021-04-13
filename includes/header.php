@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse container col-6 justify-content-between">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
+            <a class="nav-link" aria-current="page" href="index.php">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="apropos.php">A propos</a>
@@ -57,7 +57,7 @@
 
  <!-- Insertion du logo du site -->
  <div class="container-fluid box-logo">
-    <img class="container col-6" src="images/banniere_test.png" alt="logo du site">
+    <img class="container col-6" src="images/banniere.png" alt="logo du site">
   </div>
 </body>
 </html>

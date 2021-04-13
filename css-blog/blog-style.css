@@ -38,7 +38,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #e0e0e0;
 }
 
 /* ===== DANS LE CORPS ===== */
@@ -112,7 +111,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 1%;
-  margin-top: 1%;
 }
 
 .article-head {
@@ -190,7 +188,6 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 2%;
-  margin-top: 2%;
   padding: 0%;
 }
 
@@ -236,8 +233,11 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   height: 1000px;
+  width: 900px;
   padding: 0px;
   border: 1px solid #e0e0e0;
+  position: relative;
+  z-index: -1; /*derrière les icônes de lieux*/
 }
 
 /* REGIONS */
@@ -329,10 +329,11 @@ a:hover {
   width: 25px;
   border-radius: 20%;
   position: absolute;
+  cursor: pointer;
 }
 
 #anchoris {
-  color: #c89560;
+  background: #c89560;
   right: 72%;
   top: 80%;
 }

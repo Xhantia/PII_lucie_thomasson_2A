@@ -28,6 +28,13 @@
             </div>
 
             <div class="container" id="continent">
+                <!-- Lieux d'intérêt  -->
+                    <!-- Prévoyer Hamilcar -->
+                        <a href="#" class="modal-link" data-modal-target="anchoris">
+                        <div>
+                            <i id="anchoris" class="capitale fas fa-bahai"></i>
+                        </div>
+                        </a>
 
                 <!-- Territoires sur la carte -->            
                 <div id="hamilcar"></div>
@@ -36,12 +43,6 @@
                 <div id="hafferyn"></div>
                 <div id="blustrode"></div>
                 <div id="herjafol"></div>
-
-                <!-- Lieux d'intérêt -->
-                    <!-- Prévoyer Hamilcar -->
-                        <a href="#" class="modal-link" data-modal-target="anchoris">
-                            <i id="anchoris" class="capitale fas fa-bahai"></i>
-                        </a>
                 
 
                 <!-- Données affichées dans les modal -->
