@@ -31,7 +31,7 @@
                     <!-- Lieux d'intérêt  -->
                         <!-- Prévoyer Hamilcar -->
                             <a href="#" class="modal-link" data-modal-target="anchoris">
-                                <div><i id="anchoris" class="fas fa-bahai capitale"></i></div>
+                                <div><i class="fas fa-bahai capitale anchoris"></i></div>
                             </a>
 
                     <!-- Territoires sur la carte -->            
@@ -45,7 +45,33 @@
 
                     <!-- Lore à afficher -->
                         <!-- Prévoyer Hamilcar -->
-                        <div class="modal fade" id="anchoris">
+                            <div class="modal-dialog  modal-dialog-centered">
+                                <div class="modal-content modal" id="anchoris">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title mb-1 mt-1">Anchoris</h1>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="pb-2">
+                                            <h2>Capitale du Prévoyer Hamilcar.</h2>
+                                        </div>
+                                        <p class=p-2>
+                                            Capitale du plus grand Prévoyer du Continent, Anchoris en est également le premier port. 
+                                            Près des deux tiers du traffic maritime avec les <b>Terres d'Ailleurs</b> transite par la ville. 
+                                            Un lieu cosmopolite et haut en couleur, où réside la famille <b>Hamilcar</b>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        <!-- <div class="modal fade" id="anchoris">
                             <div class="modal-dialog  modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -67,7 +93,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                 </div>
 
         </div>

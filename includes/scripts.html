@@ -83,7 +83,15 @@ $(document).ready(function() {
     // jQuery Modal Popups by Black
     // http://code.jfbs.net/?showtopic=57
 
+    //Affichage des modal
+    //quand je clique sur un icone avec une classe précise
+    //je sélectionne la modal qui contient l'id correspondant a l'icone cliquée
+    //je l'affiche
+    $.(".anchoris").click(function() {
+        //afficher la modal correspondant à l'id "anchoris"
+    });
 
+    
     // Affichage des territoires au clic sur le nom
     $(".maison-hamilcar").click(function () {
         $("#hamilcar").toggleClass("area-active");
