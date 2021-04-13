@@ -21,48 +21,69 @@
                 </div>
                 <div>
                     <h2>Légende</h2>
-                    <div>Capitale</div>
+                    <div><i id="fas fa-bahai"></i>Capitale</div>
                     <div>Ville secondaire</div>
                     <div>Lieu d'intérêt</div>
                 </div>
             </div>
+            
+                <div class="container" id="continent">
+                    <!-- Lieux d'intérêt  -->
+                        <!-- Prévoyer Hamilcar -->
+                            <a href="#" class="modal-link" data-modal-target="anchoris">
+                            <div>
+                                <i id="anchoris" class="capitale fas fa-bahai"></i>
+                            </div>
+                            </a>
 
-            <div class="container" id="continent">
-                <!-- Lieux d'intérêt  -->
-                    <!-- Prévoyer Hamilcar -->
-                        <a href="#" class="modal-link" data-modal-target="anchoris">
-                        <div>
-                            <i id="anchoris" class="capitale fas fa-bahai"></i>
+                    <!-- Territoires sur la carte -->            
+                    <div id="hamilcar"></div>
+                    <div id="eristene"></div>
+                    <div id="litreans"></div>
+                    <div id="hafferyn"></div>
+                    <div id="blustrode"></div>
+                    <div id="herjafol"></div>
+                    
+
+                    <!-- Lore à afficher -->
+                        <!-- Prévoyer Hamilcar -->
+                        <div class="modal fade" id="exampleModal anchoris" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog  modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                            </div>
                         </div>
-                        </a>
-
-                <!-- Territoires sur la carte -->            
-                <div id="hamilcar"></div>
-                <div id="eristene"></div>
-                <div id="litreans"></div>
-                <div id="hafferyn"></div>
-                <div id="blustrode"></div>
-                <div id="herjafol"></div>
-                
-
-                <!-- Données affichées dans les modal -->
-                    <!-- Prévoyer Hamilcar -->
-                    <!-- <div id="anchoris" class="modal-content">
-			            <div class="modal-head">
-				            <div class="icon-city-13"></div>
-				            <div class="modal-title">
-					            <h1>Anchoris</h1>
-					            <h2>Capitale du Prévoyer Hamilcar.</h2>
-				            </div>
-			            </div>
-                        <p>
-                            Formerly known as <b>Victor's Hollow</b>, this city was once home to the famed coliseum known across Orsterra. Now, the seat of power of the <b>Consiglio</b> resides here; the city a paragon of splendid architecture and fortified defenses.
-                        </p>
-			            <a href="#"><i class="fas fa-arrow-right"></i> en savoir plus - lien inactif -</a>
-		            </div> -->
 
 
-            </div>
+                        <!-- <div id="anchoris" class="modal">
+                            <div>
+                                <div>
+                                    <h1>Anchoris</h1>
+                                    <h2>Capitale du Prévoyer Hamilcar.</h2>
+                                </div>
+                            </div>
+                            <p>
+                                Capitale du plus grand Prévoyer du Continent, Anchoris en est également le premier port. Près des deux tiers du traffic maritime avec les <b>Terres d'Ailleurs</b> transite par la ville. Un lieu cosmopolite et haut en couleur, où réside la famille <b>Hamilcar</b>
+                            </p>
+                            <a href="#"><i class="fas fa-arrow-right"></i> plongez dans l'univers -</a>
+                        </div> -->
+
+
+                </div>
+
         </div>
 
         <!-- inclusion du footer -->

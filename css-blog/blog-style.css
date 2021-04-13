@@ -232,8 +232,9 @@ a:hover {
   background-image: url("../images/le_continent.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   height: 1000px;
-  width: 900px;
+  width: 1000px;
   padding: 0px;
   border: 1px solid #e0e0e0;
   position: relative;
@@ -327,16 +328,21 @@ a:hover {
 .capitale {
   font-size: 25px;
   width: 25px;
-  border-radius: 20%;
+  border-radius: 30%;
   position: absolute;
   cursor: pointer;
 }
 
 #anchoris {
-  background: #c89560;
-  right: 72%;
-  top: 80%;
+  background-color: #c89560;
+  right: 60%;
+  top: 86%;
 }
+
+/* LORE */
+/* .modal {
+  display: none;
+} */
 
 /* ===== KEYFRAMES ===== */
 @keyframes regions-appear {
