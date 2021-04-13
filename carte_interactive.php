@@ -31,9 +31,7 @@
                     <!-- Lieux d'intérêt  -->
                         <!-- Prévoyer Hamilcar -->
                             <a href="#" class="modal-link" data-modal-target="anchoris">
-                            <div>
-                                <i id="anchoris" class="capitale fas fa-bahai"></i>
-                            </div>
+                                <div><i id="anchoris" class="fas fa-bahai capitale"></i></div>
                             </a>
 
                     <!-- Territoires sur la carte -->            
@@ -47,41 +45,29 @@
 
                     <!-- Lore à afficher -->
                         <!-- Prévoyer Hamilcar -->
-                        <div class="modal fade" id="exampleModal anchoris" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog  modal-dialog-centered" role="document">
+                        <div class="modal fade" id="anchoris">
+                            <div class="modal-dialog  modal-dialog-centered">
                                 <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
+                                    <div class="modal-header">
+                                        <h1 class="modal-title mb-1 mt-1">Anchoris</h1>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="pb-2">
+                                            <h2>Capitale du Prévoyer Hamilcar.</h2>
+                                        </div>
+                                        <p class=p-2>
+                                            Capitale du plus grand Prévoyer du Continent, Anchoris en est également le premier port. Près des deux tiers du traffic maritime avec les <b>Terres d'Ailleurs</b> transite par la ville. Un lieu cosmopolite et haut en couleur, où réside la famille <b>Hamilcar</b>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-
-                        <!-- <div id="anchoris" class="modal">
-                            <div>
-                                <div>
-                                    <h1>Anchoris</h1>
-                                    <h2>Capitale du Prévoyer Hamilcar.</h2>
-                                </div>
-                            </div>
-                            <p>
-                                Capitale du plus grand Prévoyer du Continent, Anchoris en est également le premier port. Près des deux tiers du traffic maritime avec les <b>Terres d'Ailleurs</b> transite par la ville. Un lieu cosmopolite et haut en couleur, où réside la famille <b>Hamilcar</b>
-                            </p>
-                            <a href="#"><i class="fas fa-arrow-right"></i> plongez dans l'univers -</a>
-                        </div> -->
-
-
                 </div>
 
         </div>
