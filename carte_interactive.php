@@ -44,13 +44,13 @@
 
                     <!-- Lore à afficher -->
                         <!-- Prévoyer Hamilcar -->
-                            <div class="modal fade" id="anchoris">
+                            <div class="modal" id="anchoris">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title mb-1 mt-1" >Anchoris</h1>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
+                                            <h1 class="modal-title mb-1 mt-1">Anchoris</h1>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                            <span>&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">

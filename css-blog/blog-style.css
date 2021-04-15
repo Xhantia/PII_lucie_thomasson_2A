@@ -374,8 +374,6 @@ a:hover {
 
 .modal-display {
   display: contents;
-  animation-name: regions-appear;
-  animation-duration: 0.5s;
 }
 
 .modal-dialog {

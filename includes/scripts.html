@@ -102,13 +102,26 @@ $(document).ready(function() {
 </script>
 
 <script>
-    // Affichage des modal des capitales au clic sur l'endroit
-    
+    // Affichage des modal des capitales au clic sur l'endroit   
     $(':button').click(function() { //when we click on a button
         classButton = $(this).attr("class"); //get the class of the button
         $("#" + classButton).toggleClass("modal-display"); //get the modal with the matching id and display it
     });
-    
-    // $('#myModal').modal()
+
+    $('.close').click(function() {
+        $(this).parents('.modal').removeClass("modal-display"); //close the modal currently displayed    
+    });
+
+
+//    // When the user clicks on <span> (x), close the modal
+//     span.onclick = function() {
+//     modal.style.display = "none";
+//     }
+
+//     // When the user clicks anywhere outside of the modal, close it
+//     window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
 
 </script>
