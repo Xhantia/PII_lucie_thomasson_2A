@@ -359,6 +359,15 @@ a:hover {
   top: 86%;
 }
 
+.enathon {
+  background-color: #a68abd;
+  width: 30px;
+  height: 30px;
+  right: 80%;
+  border: none;
+  top: 61%;
+}
+
 /* LORE */
 
 /* #fade-background {

@@ -32,6 +32,7 @@
                         <!-- Prévoyer Hamilcar -->
                                 <button class="anchoris"><i class="fas fa-bahai"></i></button>
                                 <button class="enathon"><i class="fas fa-bahai"></i></button>
+                                <button class="milantal"><i class="fas fa-bahai"></i></button>
 
                     <!-- Territoires sur la carte -->            
                     <div id="hamilcar"></div>
@@ -49,9 +50,9 @@
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h1 class="modal-title mb-1 mt-1">Anchoris</h1>
-                                            <button type="button" class="close" data-dismiss="modal">
-                                            <span>&times;</span>
-                                            </button>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
                                         </div>
                                         <div class="modal-body">
                                         <div class="pb-2">
@@ -61,6 +62,62 @@
                                                 Capitale du plus grand Prévoyer du Continent, Anchoris en est également le premier port. 
                                                 Près des deux tiers du traffic maritime avec les <b>Terres d'Ailleurs</b> transite par la ville. 
                                                 Un lieu cosmopolite et haut en couleur, où réside la famille <b>Hamilcar</b>.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a>Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Prévoyer Eristène -->
+                            <div class="modal" id="enathon">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mb-1 mt-1">Enathon</h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2>Capitale du Prévoyer Eristène.</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Située sur un immense surplomb rocheux, Enathon est une ville <b>ensoleillée</b> dont les habitants 
+                                                ne jouissent pas des mêmes privilèges. Durement touchée par l'<b>épidémie</b> ayant 
+                                                ravagé le Continent vingt ans plus tôt et provoqué plusieurs exodes, elle est entourée de 
+                                                <b>bidonvilles</b>, où vivent les familles ayant tout perdu.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a>Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Prévoyer Litréans -->
+                            <div class="modal" id="milantal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mb-1 mt-1">Milantal</h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2>Capitale du Prévoyer Litréans.</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Milantal est aussi réputée pour la beauté de son lac que pour son <b>Palais Militaire</b>, 
+                                                plus haute instance juridique du Continent. Parmi les attractions de cette ville, on rtrouve
+                                                également la mythique <b>famille Litréans</b>, légendaire à plus d'un égard, ainsi qu'un temps
+                                                toujours <b>maussade</b> qui ne manque pas de faire râler Auguste Hamilcar.
                                             </p>
                                         </div>
                                         <div class="modal-footer">
