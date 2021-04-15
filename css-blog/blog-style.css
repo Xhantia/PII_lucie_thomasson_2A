@@ -351,23 +351,36 @@ a:hover {
 /* CAPITALES */
 
 .capitale {
-  font-size: 25px;
-  width: 25px;
+  font-size: 19px;
   border-radius: 30%;
   position: absolute;
   cursor: pointer;
 }
 
+.capitale:hover {
+  color: ivory;
+}
+
 .anchoris {
   background-color: #c89560;
+  width: 30px;
+  height: 30px;
   right: 64%;
+  border: none;
   top: 86%;
-  border-bottom: 2px solid white;
 }
 
 /* LORE */
 .modal {
   display: none;
+  /* animation-name: regions-appear;
+  animation-duration: 0.5s; */
+}
+
+.modal-dialog {
+  top: 30%;
+  left: 34%;
+  position: fixed;
 }
 
 .close {
