@@ -103,5 +103,12 @@ $(document).ready(function() {
 
 <script>
     // Affichage des modal des capitales au clic sur l'endroit
+    
+    $(':button').click(function() { //when we click on a button
+        classButton = $(this).attr("class"); //get the class of the button
+        $("#" + classButton).toggleClass("modal-display"); //get the modal with the matching id and display it
+    });
+    
+    // $('#myModal').modal()
 
 </script>

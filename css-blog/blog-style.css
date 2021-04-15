@@ -222,17 +222,6 @@ a:hover {
 
 /* ===== CARTE INTERACTIVE ===== */
 
-#fade-background {
-  position: fixed;
-  _position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #403834;
-  z-index: 900;
-}
-
 #modal-location {
   position: fixed;
   display: none;
@@ -350,14 +339,14 @@ a:hover {
 
 /* CAPITALES */
 
-.capitale {
+#continent button {
   font-size: 19px;
   border-radius: 30%;
   position: absolute;
   cursor: pointer;
 }
 
-.capitale:hover {
+#continent button:hover {
   color: ivory;
 }
 
@@ -371,10 +360,22 @@ a:hover {
 }
 
 /* LORE */
-.modal {
-  display: none;
-  /* animation-name: regions-appear;
-  animation-duration: 0.5s; */
+
+/* #fade-background {
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #403834;
+  z-index: 900;
+} */
+
+.modal-display {
+  display: contents;
+  animation-name: regions-appear;
+  animation-duration: 0.5s;
 }
 
 .modal-dialog {

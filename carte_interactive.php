@@ -30,7 +30,8 @@
                 <div class="container" id="continent">
                     <!-- Lieux d'intérêt  -->
                         <!-- Prévoyer Hamilcar -->
-                                <button class="anchoris capitale"><i class="fas fa-bahai"></i></button>
+                                <button class="anchoris"><i class="fas fa-bahai"></i></button>
+                                <button class="enathon"><i class="fas fa-bahai"></i></button>
 
                     <!-- Territoires sur la carte -->            
                     <div id="hamilcar"></div>
