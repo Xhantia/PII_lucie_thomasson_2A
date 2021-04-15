@@ -235,6 +235,7 @@ a:hover {
 
 #modal-location {
   position: fixed;
+  display: none;
   box-sizing: border-box;
   /* padding: 40px; */
   /* top: calc(50% - 165px);
@@ -261,6 +262,7 @@ a:hover {
   padding: 0px;
   border: 1px solid #e0e0e0;
   position: relative;
+  overflow: hidden;
 }
 
 /* REGIONS */
@@ -296,7 +298,8 @@ a:hover {
 }
 
 .area-active {
-  height: 1000px;
+  height: 1200px;
+  width: 900px;
   background-size: contain;
   background-repeat: no-repeat;
   animation-name: regions-appear;
