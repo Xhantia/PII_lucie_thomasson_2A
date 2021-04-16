@@ -222,24 +222,21 @@ a:hover {
 
 /* ===== CARTE INTERACTIVE ===== */
 
-#modal-location {
-  position: fixed;
-  display: none;
-  box-sizing: border-box;
-  /* padding: 40px; */
-  /* top: calc(50% - 165px);
-  left: calc(50% - 240px);
-  width: 480px;
-  height: 330px;
-  background-color: var(--shell); */
-  border-radius: 3px;
-  z-index: 999;
-}
-
 .map-header {
-  border: 1px solid red;
   display: flex;
   padding: 2%;
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  width: 900px;
+}
+
+.map-title {
+  font-family: ambroise-std;
+  font-size: 45px;
+  margin: 2%;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #3e4866;
 }
 
 #continent {
@@ -258,32 +255,26 @@ a:hover {
 
 .maison-hamilcar {
   cursor: pointer;
-  padding: 5%;
 }
 
 .maison-eristene {
   cursor: pointer;
-  padding: 5%;
 }
 
 .maison-litreans {
   cursor: pointer;
-  padding: 5%;
 }
 
 .maison-hafferyn {
   cursor: pointer;
-  padding: 5%;
 }
 
 .maison-blustrode {
   cursor: pointer;
-  padding: 5%;
 }
 
 .maison-herjafol {
   cursor: pointer;
-  padding: 5%;
 }
 
 .area-active {
@@ -368,6 +359,42 @@ a:hover {
   top: 61%;
 }
 
+.milantal {
+  background-color: #5c8a6e;
+  width: 30px;
+  height: 30px;
+  right: 47%;
+  border: none;
+  top: 52%;
+}
+
+.tristene {
+  background-color: #cc8d8d;
+  width: 30px;
+  height: 30px;
+  right: 10%;
+  border: none;
+  top: 55%;
+}
+
+.crein {
+  background-color: #c3d4eb;
+  width: 30px;
+  height: 30px;
+  right: 64%;
+  border: none;
+  top: 29%;
+}
+
+.nirhvald {
+  background-color: #c3ebe5;
+  width: 30px;
+  height: 30px;
+  right: 38%;
+  border: none;
+  top: 27%;
+}
+
 /* LORE */
 
 /* #fade-background {
@@ -380,6 +407,31 @@ a:hover {
   background: #403834;
   z-index: 900;
 } */
+
+.modal-header {
+  border: none;
+}
+
+.modal-title {
+  font-family: ambroise-std;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3e4866;
+  margin-left: 2%;
+}
+
+.modal-subtitle {
+  font-style: oblique;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.modal-body {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
 
 .modal-display {
   display: contents;
@@ -395,7 +447,27 @@ a:hover {
   border: none;
   background-color: transparent;
   font-size: 30px;
-  color: lightgray;
+  color: rgb(63, 59, 59);
+}
+
+.fa-ship,
+.fa-chess-rook,
+.fa-balance-scale,
+.fa-sun,
+.fa-dungeon,
+.fa-trailer {
+  font-size: 20px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  color: #3e4866;
+  opacity: 0.6;
+}
+
+.modal-footer {
+  border: none;
+  padding-top: 0%;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 /* ===== KEYFRAMES ===== */
