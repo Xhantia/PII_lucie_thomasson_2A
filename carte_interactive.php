@@ -8,23 +8,31 @@
             <div class="container map-header justify-content-around flex-column">
                 <div>
                     <h1 class="map-title">Le Continent</h1>
-                    <p>Berceau du Monde des Premiers. Terre de magie, de royauté et de mystères.</p>
+                    <p class="synopsis">Berceau du Monde des Premiers. Terre de magie, de royauté et de mystères.</p>
                 </div>
-                <div>
-                    <div>
-                        <h2>Maisons dirigeantes</h2>
-                            <div class="maison-hamilcar" title="Cliquez pour afficher la région">Hamilcar</div>
-                            <div class="maison-eristene" title="Cliquez pour afficher la région">Eristène</div>
-                            <div class="maison-litreans" title="Cliquez pour afficher la région">Litréans</div>
-                            <div class="maison-hafferyn" title="Cliquez pour afficher la région">Hafferyn</div>
-                            <div class="maison-blustrode" title="Cliquez pour afficher la région">Blustrode</div>
-                            <div class="maison-herjafol" title="Cliquez pour afficher la région">Herjafol</div>
+                <div class="d-flex m-0">
+                    <div class="d-flex">
+                        <h2 class="text-left text-uppercase pt-2 ml-1">Maisons dirigeantes</h2>
+                        <div class="flex-row">
+                            <div class="d-flex m-2"> 
+                                <div class="maison-hamilcar p-3 pt-0 pl-0" title="Cliquez pour afficher la région">Hamilcar</div>
+                                <div class="maison-eristene p-3 pt-0" title="Cliquez pour afficher la région">Eristène</div>
+                                <div class="maison-litreans  p-3 pt-0" title="Cliquez pour afficher la région">Litréans</div>
+                            </div>
+                            <div class="d-flex m-2">
+                                <div class="maison-hafferyn p-3 pt-0" title="Cliquez pour afficher la région">Hafferyn</div>
+                                <div class="maison-blustrode p-3 pt-0" title="Cliquez pour afficher la région">Blustrode</div>
+                                <div class="maison-herjafol p-3 pt-0" title="Cliquez pour afficher la région">Herjafol</div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h2>Légende</h2>
-                        <div><i id="fas fa-bahai"></i>Capitale</div>
-                        <div>Ville secondaire</div>
-                        <div>Lieu d'intérêt</div>
+                    <div class="d-flex pl-5">
+                        <h2 class="text-center text-uppercase pt-4">Légende</h2>
+                        <div class="flex-column">
+                            <div><i id="fas fa-bahai"></i>Capitale</div>
+                            <div>Ville secondaire</div>
+                            <div>Lieu d'intérêt</div>
+                        </div>
                     </div>
                 </div>
             </div>
