@@ -220,6 +220,12 @@ a:hover {
   color: grey;
 }
 
+mark {
+  background-color: #877d70;
+  border-radius: 5px;
+  color: white;
+}
+
 /* ===== CARTE INTERACTIVE ===== */
 
 .map-header {
@@ -235,11 +241,26 @@ a:hover {
   font-size: 45px;
   font-weight: bold;
   letter-spacing: -1px;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 1%;
   color: #3e4866;
 }
 
 .synopsis {
-  padding-left: 2%;
+  padding-left: 1%;
+}
+
+.maisons-dirigeantes {
+  width: 150px;
+  height: 60px;
+}
+
+.legende {
+  margin-left: 3%;
+  width: 400px;
+  justify-content: space-evenly;
+  padding-top: 1%;
 }
 
 #continent {
@@ -398,6 +419,50 @@ a:hover {
   top: 27%;
 }
 
+.osjern {
+  background-color: #c3ebe5;
+  width: 30px;
+  height: 30px;
+  right: 22%;
+  border: none;
+  top: 16%;
+}
+
+.stridel {
+  background-color: #c3d4eb;
+  width: 30px;
+  height: 30px;
+  right: 71%;
+  border: none;
+  top: 34%;
+}
+
+.stalam {
+  background-color: #5c8a6e;
+  width: 30px;
+  height: 30px;
+  right: 44%;
+  border: none;
+  top: 36%;
+}
+
+.antharpe {
+  background-color: #cc8d8d;
+  width: 30px;
+  height: 30px;
+  right: 26%;
+  border: none;
+  top: 55%;
+}
+
+.nakhti {
+  background-color: #c89560;
+  width: 30px;
+  height: 30px;
+  right: 23%;
+  border: none;
+  top: 91%;
+}
 /* LORE */
 
 /* #fade-background {

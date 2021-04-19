@@ -12,26 +12,26 @@
                 </div>
                 <div class="d-flex m-0">
                     <div class="d-flex">
-                        <h2 class="text-left text-uppercase pt-2 ml-1">Maisons dirigeantes</h2>
-                        <div class="flex-row">
-                            <div class="d-flex m-2"> 
-                                <div class="maison-hamilcar p-3 pt-0 pl-0" title="Cliquez pour afficher la région">Hamilcar</div>
-                                <div class="maison-eristene p-3 pt-0" title="Cliquez pour afficher la région">Eristène</div>
-                                <div class="maison-litreans  p-3 pt-0" title="Cliquez pour afficher la région">Litréans</div>
+                        <h2 class="text-left text-uppercase pt-2 ml-1 mt-4 maisons-dirigeantes">Maisons dirigeantes</h2>
+                        <div class="flex-row m-3">
+                            <div class="d-flex m-1"> 
+                                <div class="maison-hamilcar p-3 pt-0 pl-0" title="Cliquez pour afficher la région"><mark>Hamilcar</mark></div>
+                                <div class="maison-eristene p-3 pt-0" title="Cliquez pour afficher la région"><mark>Eristène</mark></div>
+                                <div class="maison-litreans  p-3 pt-0" title="Cliquez pour afficher la région"><mark>Litréans</mark></div>
                             </div>
-                            <div class="d-flex m-2">
-                                <div class="maison-hafferyn p-3 pt-0" title="Cliquez pour afficher la région">Hafferyn</div>
-                                <div class="maison-blustrode p-3 pt-0" title="Cliquez pour afficher la région">Blustrode</div>
-                                <div class="maison-herjafol p-3 pt-0" title="Cliquez pour afficher la région">Herjafol</div>
+                            <div class="d-flex m-1">
+                                <div class="maison-hafferyn p-3 pt-0" title="Cliquez pour afficher la région"><mark>Hafferyn</mark></div>
+                                <div class="maison-blustrode p-3 pt-0" title="Cliquez pour afficher la région"><mark>Blustrode</mark></div>
+                                <div class="maison-herjafol p-2 pt-0" title="Cliquez pour afficher la région"><mark>Herjafol</mark></div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex pl-5">
-                        <h2 class="text-center text-uppercase pt-4">Légende</h2>
+                    <div class="d-flex pl-5 legende">
+                        <h2 class="text-center text-left text-uppercase pt-4">Légende</h2>
                         <div class="flex-column">
-                            <div><i id="fas fa-bahai"></i>Capitale</div>
-                            <div>Ville secondaire</div>
-                            <div>Lieu d'intérêt</div>
+                            <div class="pb-2"><i class="fas fa-bahai"></i> Capitale</div>
+                            <div class="pb-2"><i class="fas fa-circle"></i> Ville secondaire</div>
+                            <div><i class="fas fa-monument"></i> Lieu d'intérêt</div>
                         </div>
                     </div>
                 </div>
@@ -39,13 +39,20 @@
             
                 <div class="container" id="continent">
                     <!-- Lieux d'intérêt  -->
-                        <!-- Prévoyer Hamilcar -->
+                        <!-- Capitales -->
                                 <button class="anchoris"><i class="fas fa-bahai"></i></button>
                                 <button class="enathon"><i class="fas fa-bahai"></i></button>
                                 <button class="milantal"><i class="fas fa-bahai"></i></button>
                                 <button class="tristene"><i class="fas fa-bahai"></i></button>
                                 <button class="crein"><i class="fas fa-bahai"></i></button>
                                 <button class="nirhvald"><i class="fas fa-bahai"></i></button>
+                        
+                        <!-- Villes secondaires -->
+                        <button class="stridel"><i class="fas fa-circle"></i></button>
+                        <button class="osjern"><i class="fas fa-circle"></i></button>
+                        <button class="stalam"><i class="fas fa-circle"></i></button>
+                        <button class="antharpe"><i class="fas fa-circle"></i></button>
+                        <button class="nakhti"><i class="fas fa-circle"></i></button>
 
                     <!-- Territoires sur la carte -->            
                     <div id="hamilcar"></div>
@@ -54,7 +61,6 @@
                     <div id="hafferyn"></div>
                     <div id="blustrode"></div>
                     <div id="herjafol"></div>
-                    
 
                     <!-- Lore à afficher -->
                         <!-- Prévoyer Hamilcar -->
