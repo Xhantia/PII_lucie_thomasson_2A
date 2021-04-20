@@ -49,9 +49,9 @@
                     </div>
                 </a>
                 <!-- vers l'à-propos et feed instagram -->
-                <div class="container">
-                    <h2>Que se passe-t-il sur Instagram ?</h2>
-                    <div id="instafeed"></div>
+                <div class="container insta">
+                    <h2 class="text-center mb-3 mt-3">Les dernières publications Instagram</h2>
+                    <div id="instafeed" class="justify-content-center"></div>
                 </div>
             </div>
         </div>
