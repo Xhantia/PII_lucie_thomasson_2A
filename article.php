@@ -11,6 +11,7 @@
                     // $message = "Bien connecté à la DB";
                     // echo $message;
                     $article = getDB() -> query("select * from article where id_article='1'") -> fetch();
+                    $theme = getDB() -> query("select nom_categorie from categorie where id_categorie = $article[1]") -> fetch();
                 }
                 else {
                     $message = "erreur";
@@ -18,7 +19,7 @@
                 }
                 ?>
                 <!-- date -->
-                <div><p class="small text-muted"><?php echo $article[3]; ?> | Catégorie de l'article à afficher</p></div>
+                <div><p class="small text-muted"><?php echo $article[3]; ?> | <?php echo $theme[0]; ?></p></div>
                 <!-- image -->
                 <div><?php echo "<img class='article-head' src='".$article[4]."'alt='image illustrant le post'>";?></div>
                 <!-- titre -->
