@@ -90,6 +90,30 @@
                                 </div>
                             </div>
 
+                            <div class="modal" id="nakhti">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mt-1">Nakhti <i class="fas fa-ship"></i></h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2 class="modal-subtitle">Plus grand port de commerce du Continent.</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Cette section est encore en construction !
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="text-right">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Prévoyer Eristène -->
                             <div class="modal" id="enathon">
                                 <div class="modal-dialog">
@@ -146,6 +170,30 @@
                                 </div>
                             </div>
 
+                            <div class="modal" id="stalam">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mt-1">Stalam <i class="fas fa-ship"></i></h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2 class="modal-subtitle">Des béliers et des Hommes.</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Cette section est encore en construction !
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="text-right">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                              <!-- Prévoyer Hafferyn -->
                              <div class="modal" id="tristene">
                                 <div class="modal-dialog">
@@ -165,6 +213,30 @@
                                                 par une brise tiède. On y ressent quelque influence méditérranéenne, accentuée par 
                                                 les <b>couleurs chatoyantes</b> des vêtements de ses habitants. Tristène est connue
                                                 pour son commerce de la <b>soie</b>.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="text-right">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal" id="antharpe">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mt-1">Antharpe <i class="fas fa-ship"></i></h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2 class="modal-subtitle">Ville de la soie.</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Cette section est encore en construction !
                                             </p>
                                         </div>
                                         <div class="modal-footer">
@@ -202,6 +274,30 @@
                                 </div>
                             </div>
 
+                            <div class="modal" id="stridel">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mt-1">Stridel <i class="fas fa-ship"></i></h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2 class="modal-subtitle">Ville d'art et de fleuves.</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Cette section est encore en construction !
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="text-right">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Prévoyer Herjafol -->
                             <div class="modal" id="nirhvald">
                                 <div class="modal-dialog">
@@ -225,6 +321,30 @@
                                         </div>
                                         <div class="modal-footer">
                                             <a class="text-right">Plongez dans l'univers <i class="fas fa-arrow-right p-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal" id="osjern">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title mt-1">Osjern <i class="fas fa-ship"></i></h1>
+                                            <div type="button" class="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="pb-2">
+                                                <h2 class="modal-subtitle">Dans les prisons du nord...</h2>
+                                            </div>
+                                            <p class=p-2>
+                                                Cette section est encore en construction !
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="text-right">Plongez dans l'univers <i class="fas fa-arrow-right p-1"> </i></a>
                                         </div>
                                     </div>
                                 </div>
